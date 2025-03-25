@@ -30,3 +30,33 @@ Content-Type: application/json-patch+json
     "value": "Arytmetyka"
   }
 ]
+
+###
+
+PATCH {{WebApi_HostAddress}}/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[
+  {
+    "op": "add",
+    "path": "/items/-",
+    "value": {
+      "question": "4*7",
+      "correctAnswer": "28",
+      "incorrectAnswers": ["26","27","29"]
+    }
+  }
+]
+
+###
+
+PATCH {{WebApi_HostAddress}}/api/v1/admin/quizzes/1
+Content-Type: application/json-patch+json
+
+[
+  {
+    "op": "replace",
+    "path": "/title",
+    "value": "Nowy tytuł quizu"
+  }
+]

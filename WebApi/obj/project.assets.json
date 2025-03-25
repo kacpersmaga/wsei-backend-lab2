@@ -81,37 +81,37 @@
           }
         }
       },
-      "Microsoft.AspNetCore.JsonPatch/8.0.3": {
+      "Microsoft.AspNetCore.JsonPatch/9.0.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
           "Newtonsoft.Json": "13.0.3"
         },
         "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.JsonPatch.dll": {
+          "lib/net9.0/Microsoft.AspNetCore.JsonPatch.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.JsonPatch.dll": {
+          "lib/net9.0/Microsoft.AspNetCore.JsonPatch.dll": {
             "related": ".xml"
           }
         }
       },
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.3": {
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNetCore.JsonPatch": "8.0.3",
+          "Microsoft.AspNetCore.JsonPatch": "9.0.3",
           "Newtonsoft.Json": "13.0.3",
           "Newtonsoft.Json.Bson": "1.0.2"
         },
         "compile": {
-          "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+          "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
+          "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll": {
             "related": ".xml"
           }
         },
@@ -3575,10 +3575,10 @@
         "logo.png"
       ]
     },
-    "Microsoft.AspNetCore.JsonPatch/8.0.3": {
-      "sha512": "NKy/qV2PBvp5LZueiVomOKfnh5VhMf7XwLd9UcLYSw1RNVP3ny2rBfH3iaBq/ru/OZXDmnPMGd8HUzLCPXpkfw==",
+    "Microsoft.AspNetCore.JsonPatch/9.0.3": {
+      "sha512": "G4l8/XY06y6TYhQPAaDhlbEnc3aP8obYmQAv0WYQOKhXD6t8J0YKyS1TW0v3RteVDN6XsUten3BfqlvDF7Gxhg==",
       "type": "package",
-      "path": "microsoft.aspnetcore.jsonpatch/8.0.3",
+      "path": "microsoft.aspnetcore.jsonpatch/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3586,26 +3586,27 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net462/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/net462/Microsoft.AspNetCore.JsonPatch.xml",
-        "lib/net8.0/Microsoft.AspNetCore.JsonPatch.dll",
-        "lib/net8.0/Microsoft.AspNetCore.JsonPatch.xml",
+        "lib/net9.0/Microsoft.AspNetCore.JsonPatch.dll",
+        "lib/net9.0/Microsoft.AspNetCore.JsonPatch.xml",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.dll",
         "lib/netstandard2.0/Microsoft.AspNetCore.JsonPatch.xml",
-        "microsoft.aspnetcore.jsonpatch.8.0.3.nupkg.sha512",
+        "microsoft.aspnetcore.jsonpatch.9.0.3.nupkg.sha512",
         "microsoft.aspnetcore.jsonpatch.nuspec"
       ]
     },
-    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/8.0.3": {
-      "sha512": "j5MKVvDw68xoyI3GSs931Y6cg9f210uieOnrzWgv2ygPxeY0+V2HL1ORlcS4QPXh5W8BlurXFrpe5dHMQbXU9g==",
+    "Microsoft.AspNetCore.Mvc.NewtonsoftJson/9.0.3": {
+      "sha512": "Y+385Psr6e/nJkjf80DfUVDA6VZ5c1YzGEFN6UOYPOu2P3QEUZR+7IANIEcJguYCvwtTPo27p7XH6G2xm74U5g==",
       "type": "package",
-      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/8.0.3",
+      "path": "microsoft.aspnetcore.mvc.newtonsoftjson/9.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
-        "lib/net8.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
-        "microsoft.aspnetcore.mvc.newtonsoftjson.8.0.3.nupkg.sha512",
+        "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll",
+        "lib/net9.0/Microsoft.AspNetCore.Mvc.NewtonsoftJson.xml",
+        "microsoft.aspnetcore.mvc.newtonsoftjson.9.0.3.nupkg.sha512",
         "microsoft.aspnetcore.mvc.newtonsoftjson.nuspec"
       ]
     },
@@ -10237,53 +10238,45 @@
       "AutoMapper >= 13.0.1",
       "FluentValidation.AspNetCore >= 11.3.0",
       "Infrastructure >= 1.0.0",
-      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 8.0.3",
+      "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 9.0.3",
       "Microsoft.AspNetCore.OpenApi >= 8.0.3",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "Web >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cs\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\kacpe\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj",
-      "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-      "outputPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\obj\\",
+      "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj",
+      "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj": {
-              "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj"
+            "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj"
             },
-            "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj"
             },
-            "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj": {
-              "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj"
+            "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj": {
+              "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj"
             }
           }
         }
@@ -10296,9 +10289,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "all"
+        "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net9.0": {
@@ -10314,7 +10307,7 @@
           },
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
             "target": "Package",
-            "version": "[8.0.3, )"
+            "version": "[9.0.3, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
@@ -10344,80 +10337,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\kacpe\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NuGet.Common' 6.3.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-6qmf-mmc7-6c2p",
-      "libraryId": "NuGet.Common",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1904",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NuGet.Packaging' 6.3.1 has a known critical severity vulnerability, https://github.com/advisories/GHSA-68w7-72jg-6qpp",
-      "libraryId": "NuGet.Packaging",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'NuGet.Protocol' 6.3.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-6qmf-mmc7-6c2p",
-      "libraryId": "NuGet.Protocol",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Formats.Asn1' 5.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-447r-wph3-92pm",
-      "libraryId": "System.Formats.Asn1",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Net.Http' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-7jgj-8wvc-jh57",
-      "libraryId": "System.Net.Http",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.Json' 6.0.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
-      "libraryId": "System.Text.Json",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    },
-    {
-      "code": "NU1903",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'System.Text.RegularExpressions' 4.3.0 has a known high severity vulnerability, https://github.com/advisories/GHSA-cmhx-cq75-c4mj",
-      "libraryId": "System.Text.RegularExpressions",
-      "targetGraphs": [
-        "net9.0"
-      ]
-    }
-  ]
+  }
 }

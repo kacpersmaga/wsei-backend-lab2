@@ -21,6 +21,8 @@ builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRe
 builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
 builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
 builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
+builder.Services.AddControllers()
+    .AddNewtonsoftJson();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

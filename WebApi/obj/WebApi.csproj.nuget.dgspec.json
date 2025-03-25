@@ -1,32 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -61,46 +54,53 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\kacpe\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -113,9 +113,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -137,52 +137,59 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\kacpe\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj"
               },
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj"
               }
             }
           }
@@ -195,9 +202,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -213,7 +220,7 @@
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
-              "version": "[8.0.3, )"
+              "version": "[9.0.3, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
@@ -243,44 +250,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\kacpe\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj": {
+    "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\Web.csproj",
-        "packagesPath": "C:\\Users\\cs\\.nuget\\packages\\",
-        "outputPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Web\\obj\\",
+        "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\Web.csproj",
+        "packagesPath": "C:\\Users\\kacpe\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Web\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\cs\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\kacpe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\RiderProjects\\wsei-back-end\\lab\\wsei-back-end.2023\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kacpe\\RiderProjects\\wsei-backend-lab2\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -293,9 +293,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.100"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -317,6 +317,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.13, 8.0.13]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -325,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\kacpe\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
