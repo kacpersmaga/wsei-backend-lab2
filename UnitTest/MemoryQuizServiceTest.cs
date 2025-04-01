@@ -26,7 +26,7 @@ public class MemoryQuizServiceTest
 
     public MemoryQuizServiceTest()
     {
-        _aservice = new QuizAdminService(_quizRepository, _itemRepository);
+        // _aservice = new QuizAdminService(_quizRepository, _itemRepository);
         _uservice = new QuizUserService(_quizRepository, _answerRepository, _itemRepository);
 
         _quiz = _aservice.AddQuiz(

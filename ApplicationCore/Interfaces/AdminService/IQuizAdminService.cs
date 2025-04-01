@@ -12,4 +12,6 @@ public interface IQuizAdminService
     public IQueryable<Quiz> FindAllQuizzes();
 
     public IEnumerable<Quiz> FindBySpecification(ISpecification<Quiz> specification);
+    bool DeleteQuiz(int quizId);
+    QuizItem? GetQuizItem(int quizId, int itemId);
 }
